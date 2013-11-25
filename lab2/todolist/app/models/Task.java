@@ -11,7 +11,7 @@ public class Task {
   @Required
   private String label;
   
-  private static List<Task> all() {
+  public static List<Task> all() {
     return new ArrayList<Task>();
   }
   
